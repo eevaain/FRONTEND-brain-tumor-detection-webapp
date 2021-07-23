@@ -22,7 +22,7 @@ export default function Form(){
   // if i can get this shit to work then all i have to do is copy 2 more functions and assign them as onClick to the other 2 containers
   // i could also get this to work using firebase.......
   const clickedCard1 = (event) => {
-    const webImageToMemory = onImageEdit('http://localhost:3000/Y2.jpg');
+    const webImageToMemory = onImageEdit('https://brain-tumor-detection.vercel.app/Y2.jpg');
     // const object = new File([webImageToMemory], 'image', {type: event.target.currentSrc.type});
     console.log({webImageToMemory})
     console.log({event})
@@ -32,7 +32,7 @@ export default function Form(){
   }
 
   const clickedCard2 = (event) => {
-    const webImageToMemory = onImageEdit('http://localhost:3000/7 no.jpg');
+    const webImageToMemory = onImageEdit('https://brain-tumor-detection.vercel.app/7 no.jpg');
     // const object = new File([webImageToMemory], 'image', {type: event.target.currentSrc.type});
     console.log({webImageToMemory})
     console.log({event})
@@ -42,7 +42,7 @@ export default function Form(){
   }
 
   const clickedCard3 = (event) => {
-    const webImageToMemory = onImageEdit('http://localhost:3000/18 no.jpg');
+    const webImageToMemory = onImageEdit('https://brain-tumor-detection.vercel.app/18 no.jpg');
     // const object = new File([webImageToMemory], 'image', {type: event.target.currentSrc.type});
     console.log({webImageToMemory})
     console.log({event})
