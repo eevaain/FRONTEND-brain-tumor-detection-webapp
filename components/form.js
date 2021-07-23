@@ -77,7 +77,7 @@ export default function Form(){
     console.log({passedData})
     if (passedData) {
       // axios.post(`http://localhost:5000/${passedData.sendImageType}`, passedData)
-      axios.post(`https://brain-tumor-detection-backend.herokuapp.com//test`, passedData)
+      axios.post(`https://brain-tumor-detection-backend.herokuapp.com/test`, passedData)
       // might have to turn this into a template literal to create varying routes for either 'handleChange()' or 'clickedCard()'
       .then((testRes) => {
       console.log({testRes})
